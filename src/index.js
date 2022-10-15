@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import store from './store.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* use the provider of  react-redux  in order to provide the app all the states of redux */}
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 

@@ -4,7 +4,7 @@ import { Navigate, useNavigate } from 'react-router-dom';
 
 const ProduitCard = ({ProduitData}) => {
     const navigate = useNavigate()
-    console.log(ProduitData);
+    //console.log(ProduitData);
     return (
         <div>
               <Card style={{ width: '18rem' }}>
@@ -13,6 +13,7 @@ const ProduitCard = ({ProduitData}) => {
                     <Card.Subtitle className="mb-2 text-muted">
                         Money Honey : {ProduitData.price}
                     </Card.Subtitle>
+                    <Card.Img src={ProduitData.url} />
                     <Card.Text>
                     department : {ProduitData.department}
                             Color : {ProduitData.color}

@@ -1,3 +1,4 @@
+//import {1} from './products/pexels-alex-andrews-821651'
 export const users = [
     {
         'id': 1,
@@ -57,6 +58,7 @@ export const users = [
 export const products= [
     {
         'id':1,
+        'url': 'https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "grey",
       "department": "Health",
       "productName": "Rustic Wooden Towels",
@@ -67,6 +69,7 @@ export const products= [
     },
     {
         'id':2,
+        'url': 'https://images.pexels.com/photos/380954/pexels-photo-380954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "salmon",
       "department": "Sports",
       "productName": "Fantastic Rubber Mouse",
@@ -77,7 +80,7 @@ export const products= [
     },
     {
         'id':3,
-
+'url': 'https://images.pexels.com/photos/2587370/pexels-photo-2587370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "azure",
       "department": "Automotive",
       "productName": "Gorgeous Frozen Towels",
@@ -88,7 +91,7 @@ export const products= [
     },
     {
         'id':4,
-
+'url': 'https://images.pexels.com/photos/1667088/pexels-photo-1667088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "turquoise",
       "department": "Games",
       "productName": "Ergonomic Rubber Gloves",
@@ -99,7 +102,7 @@ export const products= [
     },
     {
         'id':5,
-
+'url': 'https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "yellow",
       "department": "Sports",
       "productName": "Tasty Frozen Bike",
@@ -110,7 +113,7 @@ export const products= [
     },
     {
         'id':6,
-
+'url': 'https://images.pexels.com/photos/821651/pexels-photo-821651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "orange",
       "department": "Music",
       "productName": "Gorgeous Frozen Hat",
@@ -121,7 +124,7 @@ export const products= [
     },
     {
         'id': 7,
-
+'url': 'https://images.pexels.com/photos/335257/pexels-photo-335257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "fuchsia",
       "department": "Home",
       "productName": "Gorgeous Concrete Chicken",
@@ -132,7 +135,7 @@ export const products= [
     },
     {
         'id':8,
-
+'url': 'https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "indigo",
       "department": "Industrial",
       "productName": "Handmade Wooden Hat",
@@ -143,7 +146,7 @@ export const products= [
     },
     {
         'id':9,
-
+'url': 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "yellow",
       "department": "Grocery",
       "productName": "Practical Steel Gloves",
@@ -154,7 +157,7 @@ export const products= [
     },
     {
         'id':10,
-
+'url': 'https://images.pexels.com/photos/2536965/pexels-photo-2536965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       "color": "black",
       "department": "Garden",
       "productName": "Fantastic Frozen Sausages",
